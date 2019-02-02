@@ -1,0 +1,30 @@
+This directory contains the extracted feature data and labels for the data of 15 users.
+The data is divided into the training set, validations set, and test set.
+The features are in order as
+
+1-32: Discrete wavelet transform coefficients of the x-axis acceleration (Forward direction)
+33-64: Discrete wavelet transform coefficients of the y-axis acceleration (Vertical direction)
+65: Mean of the z-axis acceleration (Lateral direction)
+66-97: Discrete wavelet transform coefficients of the body acceleration
+98: Variance of the x-axis acceleration (Forward direction)
+99: Variance of the y-axis acceleration (Vertical direction)
+100: Variance of the z-axis acceleration (Lateral direction)
+101: Variance of the body acceleration
+102-117: FFT coefficients of the stretch sensor
+118: Maximum value of the stretch sensor
+119: Minimum value of the stretch sensor
+120: Duration of the window in seconds
+121: Activity in the previous window
+
+Please note that all the features have been normalized such that they have zero mean.
+
+The labels for each window is present in the corresponding labels.csv file. The labels are numbered
+as below:
+1 - Drive
+2 - Jump
+3 - Lie down
+4 - Sit
+5 - Stand
+6 - Walk
+7 - Transition between the above
+
