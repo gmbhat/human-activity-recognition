@@ -6,7 +6,7 @@ This repository provides the data sets and source code for online human activity
 "Bhat, Ganapati, et al. "Online human activity recognition using low-power wearable devices." Proceedings of the International Conference on Computer-Aided Design. ACM, 2018."
 
 Bibtex: 
-@inproceedings{bhat2018online,
+```@inproceedings{bhat2018online,
   title={Online human activity recognition using low-power wearable devices},
   author={Bhat, Ganapati and Deb, Ranadeep and Chaurasia, Vatika Vardhan and Shill, Holly and Ogras, Umit Y},
   booktitle={Proceedings of the International Conference on Computer-Aided Design},
@@ -14,6 +14,7 @@ Bibtex:
   year={2018},
   organization={ACM}
 }
+```
 
 
 
