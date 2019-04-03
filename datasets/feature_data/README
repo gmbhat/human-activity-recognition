@@ -20,7 +20,6 @@ Please note that all the features have been normalized such that they have zero 
 
 The labels for each window is present in the corresponding labels.csv file. The labels are numbered
 as below:
-1 - Drive
 2 - Jump
 3 - Lie down
 4 - Sit
