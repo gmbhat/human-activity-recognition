@@ -1,0 +1,38 @@
+This directory contains the raw data for 15 users. The data is divided into two streams.
+The first stream contains the motion sensor data (Accelerometer + Gyroscope) and the second
+stream contains the stretch sensor data. The data is divided into two files since the sampling frequencies
+of the sensors are different. 
+The motion sensor is mounted on the right ankle of the user while the stretch sensor is placed
+at the knee. More details are available at:
+
+
+Note that the raw data files have been synchronized in time such that they can be used
+directly for feature generation and classification.
+
+The files contain the raw data of experiments for each user. The experiments are uniquly identified
+by the (user id, scenario, and trial). User id is a unique identifier for each user. The scenario
+defines the specific scenario under which the experiment was performed. Finally, the trial defines
+the trial number for the (user, scenario) pair. This is true for both the files in the data set. 
+
+Explanations for each column of the data set are below:
+Motion sensor data:
+Time: The timestamp of the sensor data in seconds. This value starts from zero for each experiment
+User: User id of the current experiment
+Scenario: Scenario used for the current experiment
+Trial: Trial number for the current user and scenario
+Ax: Value of the acceleration in the forward direction in units of g
+Ay: Value of the acceleration in the downward direction in units of g
+Az: Value of the acceleration in the lateral direction in units of g
+Gx: Value of rotation in the forward direcction in units of rad/s
+Gy: Value of rotation in the downward direcction in units of rad/s
+Gz: Value of rotation in the lateral direcction in units of rad/s
+
+Stretch sensor data:
+Time: The timestamp of the sensor data in seconds. This value starts from zero for each experiment
+User: User id of the current experiment
+Scenario: Scenario used for the current experiment
+Trial: Trial number for the current user and scenario
+Stretch value: Value of the capacitive stretch sensor in pF
+
+
+For questions and comments please email Ganapati Bhat at gmbhat[at]asu[at]edu
