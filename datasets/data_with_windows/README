@@ -5,8 +5,6 @@ of the sensors are different.
 The motion sensor is mounted on the right ankle of the user while the stretch sensor is placed
 at the knee. More details are available at:
 
-Bhat, Ganapati, et al. "Online human activity recognition using low-power wearable devices."
-Proceedings of the International Conference on Computer-Aided Design. ACM, 2018.
 
 Note that the raw data files have been synchronized in time such that they can be used
 directly for feature generation and classification.
