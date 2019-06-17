@@ -1,4 +1,4 @@
-This directory contains the extracted feature data and labels for the data of 15 users.
+This directory contains the extracted feature data and labels for the data of 22 users.
 The data is divided into the training set, validations set, and test set.
 The features are in order as
 
@@ -15,15 +15,17 @@ The features are in order as
 119: Minimum value of the stretch sensor
 120: Duration of the window in seconds
 121: Activity in the previous window
+122: User id for the current activity window
 
 Please note that all the features have been normalized such that they have zero mean.
 
 The labels for each window is present in the corresponding labels.csv file. The labels are numbered
 as below:
-2 - Jump
-3 - Lie down
-4 - Sit
-5 - Stand
-6 - Walk
-7 - Transition between the above
-
+1 - Jump
+2 - Lie down
+3 - Sit
+4 - Stand
+5 - Walk
+6 - Stairs up
+7 - Stairs down
+8 - Transition between the above

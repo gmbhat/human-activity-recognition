@@ -1,0 +1,19 @@
+1-32: Discrete wavelet transform coefficients of the x-axis acceleration (Forward direction)
+33-64: Discrete wavelet transform coefficients of the y-axis acceleration (Vertical direction)
+65: Mean of the z-axis acceleration (Lateral direction)
+66-97: Discrete wavelet transform coefficients of the body acceleration
+98: Variance of the x-axis acceleration (Forward direction)
+99: Variance of the y-axis acceleration (Vertical direction)
+100: Variance of the z-axis acceleration (Lateral direction)
+101: Variance of the body acceleration
+102-117: FFT coefficients of the stretch sensor
+118: Maximum value of the stretch sensor
+119: Minimum value of the stretch sensor
+120: Duration of the window in seconds
+121: Activity in the previous window
+122: User id for the current activity window
+
+Please note that all the features have been normalized such that they have zero mean. The mean and variance vectors are provided
+
+
+

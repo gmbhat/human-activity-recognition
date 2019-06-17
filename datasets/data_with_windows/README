@@ -1,4 +1,4 @@
-This directory contains the raw data for 15 users. The data is divided into two streams.
+This directory contains the raw data for 22 users. The data is divided into two streams.
 The first stream contains the motion sensor data (Accelerometer + Gyroscope) and the second
 stream contains the stretch sensor data. The data is divided into two files since the sampling frequencies
 of the sensors are different. 
