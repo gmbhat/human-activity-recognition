@@ -1,4 +1,4 @@
-# w-HAR: Human Activity Recognition Dataset with Stretch Sensor and Accelerometer
+# w-HAR: An Activity Recognition Dataset and Framework Using Low-Power Wearable Devices
 Source code and data sets for online human activity recognition.
 
 This repository provides the data sets and source code for online human activity recognition proposed in the paper "Online Human Activity Recognition using Low-Power Wearable Devices". Please cite the following paper when using this data set.
