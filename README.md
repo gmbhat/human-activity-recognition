@@ -3,19 +3,21 @@ Source code and data sets for online human activity recognition.
 
 This repository provides the data sets and source code for online human activity recognition proposed in the paper "Online Human Activity Recognition using Low-Power Wearable Devices". Please cite the following paper when using this data set.
 
-"Bhat, Ganapati, et al. "Online human activity recognition using low-power wearable devices." Proceedings of the International Conference on Computer-Aided Design. ACM, 2018."
+"Bhat, G.; Tran, N.; Shill, H.; Ogras, U.Y. w-HAR: An Activity Recognition Dataset and Framework Using Low-Power Wearable Devices. Sensors 2020, 20, 5356."
 
 Bibtex: 
-```@inproceedings{bhat2018online,
-  title={Online human activity recognition using low-power wearable devices},
-  author={Bhat, Ganapati and Deb, Ranadeep and Chaurasia, Vatika Vardhan and Shill, Holly and Ogras, Umit Y},
-  booktitle={Proceedings of the International Conference on Computer-Aided Design},
-  pages={72},
-  year={2018},
-  organization={ACM}
+```@article{bhat2020w,
+  title={w-HAR: An Activity Recognition Dataset and Framework Using Low-Power Wearable Devices},
+  author={Bhat, Ganapati and Tran, Nicholas and Shill, Holly and Ogras, Umit Y},
+  journal={Sensors},
+  volume={20},
+  number={18},
+  pages={5356},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
 
 
 
-NOTE: This page is under construction.
+
